@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+**/.DS_Store
+._*
+
+# KiCad lock files
+*.lck
+~*
+
+# KiCad backups and autosaves
+*-backups/
+*.bak
+*.bck
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*-save.kicad_pcb
+*-save.pro
+\#auto_saved_files\#
+_autosave-*
+*~
+
+# KiCad local/user state and caches
+*.kicad_prl
+fp-info-cache
+*-cache.lib
+*.tmp
+
+# Fabrication toolkit output
+production/
