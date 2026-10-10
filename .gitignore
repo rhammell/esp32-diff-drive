@@ -27,5 +27,6 @@ fp-info-cache
 *-cache.lib
 *.tmp
 
-# Fabrication toolkit output
+# Fabrication toolkit output and settings
 production/
+fabrication-toolkit-options.json

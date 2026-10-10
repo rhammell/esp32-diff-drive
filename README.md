@@ -81,7 +81,7 @@ ESP32_Diff_Drive/
 
 1. Open `ESP32_Diff_Drive/ESP32_Diff_Drive.kicad_pro` in **KiCad 10** or newer.
 2. The project's symbol, footprint, and 3D model libraries are referenced relative to the project folder, so no extra library setup is needed.
-3. Each component in the schematic has an LCSC part number in its `LCSC` field for JLCPCB assembly. The `fabrication-toolkit-options.json` file holds the settings for the [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin, which generates Gerbers, the BOM, and the placement file.
+3. Each component in the schematic has an LCSC part number in its `LCSC` field for JLCPCB assembly. The [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin can generate the Gerbers, BOM, and placement file in one step.
 
 ### Programming
 
