@@ -2,11 +2,11 @@
 
 A compact ESP32-S3 based differential drive controller board designed in KiCad.
 
+ESP32 Diff Drive is a small, battery-powered controller for two-wheeled robots. It pairs an ESP32-S3 module with a dual H-bridge motor driver and connectors for two N20 gear motors with quadrature encoders. A single-cell Li-ion/LiPo battery powers the board, and it charges over USB-C. The same USB-C port is used for programming and serial debugging through the ESP32-S3's native USB.
+
 <p align="center">
   <img src="docs/images/board_top.png" alt="ESP32 Diff Drive board, top view" width="700">
 </p>
-
-ESP32 Diff Drive is a small, battery-powered controller for two-wheeled robots. It pairs an ESP32-S3 module with a dual H-bridge motor driver and connectors for two N20 gear motors with quadrature encoders. A single-cell Li-ion/LiPo battery powers the board, and it charges over USB-C. The same USB-C port is used for programming and serial debugging through the ESP32-S3's native USB.
 
 ## Features
 
