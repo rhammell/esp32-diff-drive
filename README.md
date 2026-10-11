@@ -89,4 +89,4 @@ The ESP32-S3 is programmed over USB-C. If the port doesn't appear, hold **BOOT**
 
 ## License
 
-_TBD_
+This project is licensed under the [MIT License](LICENSE).
