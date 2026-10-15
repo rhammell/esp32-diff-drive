@@ -524,7 +524,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32_Diff_Drive.kicad_pro",
+    "filename": "MDD32_Bot.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -618,7 +618,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ESP32_Diff_Drive.stl",
+      "step": "MDD32_Bot.stl",
       "svg": "",
       "vrml": ""
     },
@@ -769,8 +769,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ESP32_Diff_Drive.kicad_sch",
-        "name": "ESP32_Diff_Drive",
+        "filename": "MDD32_Bot.kicad_sch",
+        "name": "MDD32_Bot",
         "uuid": "68fd25bc-da1d-4d9a-9340-0ded04d59660"
       }
     ],
@@ -780,7 +780,7 @@
   "sheets": [
     [
       "68fd25bc-da1d-4d9a-9340-0ded04d59660",
-      "ESP32_Diff_Drive"
+      "MDD32_Bot"
     ]
   ],
   "text_variables": {},

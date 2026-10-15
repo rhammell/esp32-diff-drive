@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "ESP32_Diff_Drive") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/ESP32_Diff_Drive.kicad_sym") (options "") (descr ""))
-)

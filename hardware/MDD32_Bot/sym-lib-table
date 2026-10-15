@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MDD32_Bot") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/MDD32_Bot.kicad_sym") (options "") (descr ""))
+)

@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(title "ESP32 Diff Drive")
+		(title "MDD32 Bot")
 		(rev "v1.0")
 	)
 	(layers
@@ -224,7 +224,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/e62ce322-3cc2-4225-b500-58179704fa4e")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -610,7 +610,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3cd5d3a9-0f48-4189-96d8-f080eb621d65")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -785,7 +785,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e27f7666-82a4-448b-9973-6f39a493def5")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -998,7 +998,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ab291697-f9b6-46dd-a92b-415a098ebd4d")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1160,7 +1160,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0e724e02-5c16-4c0e-a400-e0605257f2ee")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1322,7 +1322,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5243498d-5282-4424-9e77-9bcb438b2831")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1484,7 +1484,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c30778c7-32cc-4b79-9db2-12c7b12760fb")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1646,7 +1646,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f33458e1-4f2f-4b8b-a83e-09c1b6a489ec")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1808,7 +1808,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1a4f0f39-c10f-404c-8b35-98093f3faaaf")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1901,7 +1901,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias"
+	(footprint "MDD32_Bot:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "2cb57b5f-1e12-4d01-9bf3-3436387659be")
 		(at 98.22 64.53 90)
@@ -1970,7 +1970,7 @@
 		(property ki_fp_filters "HTSSOP*1EP*4.4x5mm*P0.65mm*EP3.4x5mm*")
 		(path "/bb3b5e76-c3ce-45ef-a397-c3de386df28c")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2617,7 +2617,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/baf8f13b-7b6b-4ae6-b87b-fb155425966b")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2830,7 +2830,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/91272e4a-6534-4a08-bc42-32caa4c7c5af")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2923,7 +2923,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:ESP32-S3-MINI-1"
+	(footprint "MDD32_Bot:ESP32-S3-MINI-1"
 		(layer "F.Cu")
 		(uuid "34d96f3e-8efd-4f62-94f9-0bc53f6f3243")
 		(at 121.45 57.4 -90)
@@ -2996,7 +2996,7 @@
 		(property ki_fp_filters "ESP32?S*MINI?1")
 		(path "/83d4fc56-9fcc-4364-99c8-a138688f479a")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4088,7 +4088,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d8487a93-4827-493c-9625-6c736170f1b0")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4390,7 +4390,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e8c46624-fa24-4e82-ab94-85af5c413cd1")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4552,7 +4552,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/461eca69-f669-41bd-9496-79e8c8a7a03f")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4645,7 +4645,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+	(footprint "MDD32_Bot:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 		(layer "F.Cu")
 		(uuid "3d248a2b-998b-4d21-b2c0-a6abed18a41e")
 		(at 81.4 47.46 180)
@@ -4716,7 +4716,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/ab80c724-96d7-4bb2-a776-edee07eaf6ca")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5079,7 +5079,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:L_Coilcraft_XxL4030"
+	(footprint "MDD32_Bot:L_Coilcraft_XxL4030"
 		(layer "F.Cu")
 		(uuid "3f7cc54e-bb40-4c76-b231-305f27fbed3d")
 		(at 100.325 54.05 -90)
@@ -5150,7 +5150,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/127abf63-83a0-4062-ac5a-823370d430cf")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5370,7 +5370,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a1537e16-f623-49fc-84da-73ade0ead82b")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5519,7 +5519,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/1e775193-878c-482d-9a5a-434ee67e7ef8")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5641,7 +5641,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/1e25c76e-d2ee-42c9-8e85-b3b33d6d455a")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5943,7 +5943,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a60db4c-306a-4d30-9b7d-bf6571411802")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6105,7 +6105,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/52bac37d-02de-40fd-9d9d-a68bb36d8e0f")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6267,7 +6267,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/80c3fb6c-6329-464f-b36e-f405fe8983a8")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6429,7 +6429,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a4e8aa3c-7c01-41a2-b859-8ba6742a8490")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6590,7 +6590,7 @@
 		)
 		(path "/790d30a5-2e14-4cbf-bd5f-b0aec182951e")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6916,7 +6916,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8dfa8755-02dc-4034-ac35-814d2acb0432")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7078,7 +7078,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2f8d224e-50db-45ee-b600-38e125aa7ae5")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7240,7 +7240,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e988b0fd-3b07-4008-af26-a96706d6762b")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7389,7 +7389,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/072d2d4c-6a3e-4ede-b8f5-fb87bcddc105")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7509,7 +7509,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/01b03e99-a31d-449a-8ab2-c3ce7eec04e4")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7671,7 +7671,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/692cfae5-993e-44bc-b6d3-f12a7a91aa73")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7833,7 +7833,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3c914386-1303-4926-82c5-0e9bc5c1b782")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7995,7 +7995,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/984e2031-f557-4b59-9df9-829f502e5f55")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8157,7 +8157,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/145e5ece-6858-411a-839c-ab9fe882e4d8")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8319,7 +8319,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cba08e2e-cd81-4fb8-9e14-0a8c0a58f4e9")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8481,7 +8481,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/ff515172-c0bb-4dcb-a057-86edc81886ae")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8854,7 +8854,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d90a35d1-77f9-48a0-bddb-caaddb419fed")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8974,7 +8974,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/afa72c87-8cf7-4cf8-bdea-c0965213fad7")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9136,7 +9136,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8c8c2157-0946-4a8f-8694-019320671243")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9229,7 +9229,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:SW_SPDT_Shouhan_MSK12C02"
+	(footprint "MDD32_Bot:SW_SPDT_Shouhan_MSK12C02"
 		(layer "F.Cu")
 		(uuid "9d65d597-216d-40df-a481-f0dc048d0d17")
 		(at 103.2 45.15 180)
@@ -9299,7 +9299,7 @@
 		)
 		(path "/00f41317-b279-4ba7-b4de-63080bc56cab")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9686,7 +9686,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb5fa32d-0e53-4ee1-b08c-7089c9a30a27")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9848,7 +9848,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ddeb196c-b285-4e90-a554-d602dc153d61")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10010,7 +10010,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/405e0482-ca4e-408b-8505-a4b865efd843")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10396,7 +10396,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/99818c1f-89ae-4e9e-bf76-b127e386436f")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10558,7 +10558,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/03b141c4-9450-4d53-b1d0-64bf556067cd")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10721,7 +10721,7 @@
 		)
 		(path "/cb793b5d-c60f-47db-96cd-3470e85b4b15")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10992,7 +10992,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0b13559c-ae14-4d88-bce6-1221353c0b33")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11112,7 +11112,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c6f0a0c6-b3e0-45fa-a165-b0de36b8a631")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11501,7 +11501,7 @@
 		)
 		(path "/c9496145-e7af-4ee9-859e-f0148faef61c")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11774,7 +11774,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/784428c2-fcc3-4741-b790-310baa22873c")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12156,7 +12156,7 @@
 			)
 		)
 	)
-	(footprint "ESP32_Diff_Drive:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
+	(footprint "MDD32_Bot:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "c073f4db-e8cb-4674-826d-0bf79bb1aa95")
 		(at 76.6625 57.675)
@@ -12225,7 +12225,7 @@
 		(property ki_fp_filters "VQFN*1EP*3x3mm*P0.5mm*")
 		(path "/b7b3fd68-f9cf-4aef-934b-ea1477cdf447")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12904,7 +12904,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e8864b0c-a059-4cb3-be23-c8f25ab7ac99")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13117,7 +13117,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/55bc2cb5-878c-4c26-9a74-83387056b67e")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13279,7 +13279,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eab3cfd6-1f13-4b24-919d-2a4caf94a473")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13441,7 +13441,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b4c22df8-f228-4e45-9607-43c0ec0c4648")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13602,7 +13602,7 @@
 		)
 		(path "/85dd131d-7056-4014-a13a-461c7ad97c7b")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14130,7 +14130,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6a3971c-4294-4b47-9d7c-96d008dabbfe")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14292,7 +14292,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ff5937ad-f625-4732-90f6-8c520533e41e")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14454,7 +14454,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7892a9ae-c3a5-4858-b761-a748382bf88c")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14616,7 +14616,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6afc9b40-cfd6-4427-a3cd-a65c6e610c7f")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14778,7 +14778,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3eb3566-03bd-452f-b814-38c1f2476a17")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14940,7 +14940,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e7710f50-4f09-43c1-9473-d7dd86c368c0")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15390,7 +15390,7 @@
 		)
 		(path "/e5cd359f-6533-4c55-be26-d1c3787fc98e")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15918,7 +15918,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/05ca05cf-098f-4fd9-bb49-dc473f77a5f2")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16081,7 +16081,7 @@
 		)
 		(path "/cecb61b6-95a2-4e61-a330-ec88c4a1a716")
 		(sheetname "/")
-		(sheetfile "ESP32_Diff_Drive.kicad_sch")
+		(sheetfile "MDD32_Bot.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16460,7 +16460,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ESP32 Diff Drive\n${REVISION}"
+	(gr_text "MDD32 Bot\n${REVISION}"
 		(at 125.8 60.1 0)
 		(layer "B.SilkS")
 		(uuid "a0892201-e495-446d-878e-0bb60b91c667")

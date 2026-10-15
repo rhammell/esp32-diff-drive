@@ -1,14 +1,23 @@
-# ESP32 Diff Drive
+# MDD32 Bot
 
-A compact ESP32-S3 based differential drive controller board designed in KiCad.
+A minimal two-wheeled differential-drive robot built around an ESP32-S3. The project includes the custom PCB, the 3D-printable chassis, and the firmware (packaged as an Arduino library).
 
-ESP32 Diff Drive is a small, battery-powered controller for two-wheeled robots. It pairs an ESP32-S3 module with a dual H-bridge motor driver and connectors for two N20 gear motors with quadrature encoders. A single-cell Li-ion/LiPo battery powers the board, and it charges over USB-C. The same USB-C port is used for programming and serial debugging through the ESP32-S3's native USB.
+The MDD32 board is a small, battery-powered controller for two-wheeled robots. It pairs an ESP32-S3 module with a dual H-bridge motor driver and connectors for two N20 gear motors with quadrature encoders. A single-cell Li-ion/LiPo battery powers the board, and it charges over USB-C. The same USB-C port is used for programming and serial debugging through the ESP32-S3's native USB.
 
 <p align="center">
-  <img src="docs/images/board_top.png" alt="ESP32 Diff Drive board, top view" width="700">
+  <img src="images/board_top.png" alt="MDD32 Bot board, top view" width="700">
 </p>
 
-## Features
+## Repository Layout
+
+| Folder | Description |
+| --- | --- |
+| [`firmware/`](firmware/) | ESP32 firmware, packaged as the `MDD32_Bot` Arduino library, plus example, test, and tuning sketches. |
+| [`hardware/`](hardware/) | KiCad project for the PCB (schematic, board layout, and footprint/symbol/3D-model libraries). |
+| [`mechanical/`](mechanical/) | FreeCAD source (`mechanical/src/`) and exported STLs (`mechanical/export/`) for the chassis. |
+| [`images/`](images/) | README images. |
+
+## Board Features
 
 - **ESP32-S3-MINI-1-N8** module with Wi-Fi and Bluetooth LE
 - **Native USB-C** for programming, serial, and charging; no USB-UART bridge needed
@@ -66,26 +75,64 @@ ESP32 Diff Drive is a small, battery-powered controller for two-wheeled robots. 
 | J4  | JST-SH 6-pin (MOT L) | 1: `GND`, 2: `ENC_B`, 3: `ENC_A`, 4: `3V3`, 5: `M2`, 6: `M1` |
 | J5  | JST-SH 6-pin (MOT R) | 1: `GND`, 2: `ENC_B`, 3: `ENC_A`, 4: `3V3`, 5: `M2`, 6: `M1` |
 
-## Repository Layout
+### Opening the PCB
 
-```
-docs/images/                     README images
-ESP32_Diff_Drive/
-├── ESP32_Diff_Drive.kicad_pro   KiCad project
-├── ESP32_Diff_Drive.kicad_sch   Schematic
-├── ESP32_Diff_Drive.kicad_pcb   PCB layout
-└── libraries/                   Project symbols, footprints, and 3D models
-```
-
-## Getting Started
-
-1. Open `ESP32_Diff_Drive/ESP32_Diff_Drive.kicad_pro` in **KiCad 10** or newer.
+1. Open `hardware/MDD32_Bot/MDD32_Bot.kicad_pro` in **KiCad 10** or newer.
 2. The project's symbol, footprint, and 3D model libraries are referenced relative to the project folder, so no extra library setup is needed.
 3. Each component in the schematic has an LCSC part number in its `LCSC` field for JLCPCB assembly. The [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin can generate the Gerbers, BOM, and placement file in one step.
 
-### Programming
+## Firmware
+
+The firmware lives in `firmware/MDD32_Bot/`, structured as an Arduino library with no external dependencies:
+
+| Path | Description |
+| --- | --- |
+| `src/MDD32_Bot.h` / `.cpp` | Top-level `MDD32_Bot` class that ties the subsystems together. |
+| `src/definitions/` | Compile-time configuration: `pin_definitions.h` (wiring) and `robot_definitions.h` (tuning/behavior). |
+| `src/battery/` | `MDD32_Battery`: battery voltage and charger-status monitoring. |
+| `src/drive/` | Differential drive stack: `MDD32_Motor`, `MDD32_Encoder`, `MDD32_PID`, `MDD32_Motor_Controller`, and `MDD32_Drive`. |
+| `examples/` | Standalone feature demos: `BatteryTest`, `WifiTest`. |
+| `tuning/` | Calibration sketches, numbered in the order they should be run: `1_FeedforwardTuning`, `2_PIDTuning`, `3_WheelSyncTuning`, `4_DistanceTuning`. |
+| `tests/` | Post-build verification sketches: `ForwardTest`, `DriftTest`, `DriveCycleTest`. |
+
+All sketches report over the Serial Monitor at 115200 baud.
+
+### Installing
+
+Copy or symlink `firmware/MDD32_Bot` into your Arduino `libraries` folder (for example `~/Documents/Arduino/libraries/MDD32_Bot`), and install the **esp32 by Espressif Systems** board package.
+
+### Board settings
+
+In the Arduino IDE, select **ESP32S3 Dev Module** and set:
+
+- **USB CDC On Boot:** Enabled (required for Serial output over the native USB port)
+- **Flash Size:** 8MB
+- **PSRAM:** Disabled
 
 The ESP32-S3 is programmed over USB-C. If the port doesn't appear, hold **BOOT**, press and release **RESET**, then release **BOOT** to enter the bootloader.
+
+### Usage
+
+```cpp
+#include <MDD32_Bot.h>
+
+MDD32_Bot bot;
+
+void setup() {
+    Serial.begin(115200);
+    if (!bot.begin()) {
+        Serial.println("MDD32 Bot init failed");
+        while (1);
+    }
+    bot.drive.straight(6.0f);   // drive forward at 6 cm/s
+}
+
+void loop() {
+    bot.drive.update();         // must be called frequently for PID control
+}
+```
+
+`MDD32_Bot` exposes two subsystems: `battery` (`voltage()`, `charging()`, `chargerConnected()`) and `drive` (`straight()`, `spin()`, `stop()`, `update()`, `isMoving()`, `getTelemetry()`, `getDistance()`, `resetDistance()`).
 
 ## License
 

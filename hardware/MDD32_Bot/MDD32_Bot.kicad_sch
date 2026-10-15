@@ -5,7 +5,7 @@
 	(uuid "68fd25bc-da1d-4d9a-9340-0ded04d59660")
 	(paper "A3")
 	(title_block
-		(title "ESP32 Diff Drive")
+		(title "MDD32 Bot")
 		(rev "v1.0")
 	)
 	(lib_symbols
@@ -1121,7 +1121,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2307,7 +2307,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_Diff_Drive:AP2114H-3.3"
+		(symbol "MDD32_Bot:AP2114H-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2447,7 +2447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_Diff_Drive:Conn_Motor_N20_Encoder"
+		(symbol "MDD32_Bot:Conn_Motor_N20_Encoder"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2650,7 +2650,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_Diff_Drive:DRV8833PWPR"
+		(symbol "MDD32_Bot:DRV8833PWPR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3059,7 +3059,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_Diff_Drive:SW_SPDT_SH"
+		(symbol "MDD32_Bot:SW_SPDT_SH"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3267,7 +3267,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32_Diff_Drive:TPS61023DRLR"
+		(symbol "MDD32_Bot:TPS61023DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7023,12 +7023,24 @@
 		(uuid "24e0af59-86da-4210-b01b-1a5d7aba91b3")
 	)
 	(no_connect
+		(at 49.53 257.81)
+		(uuid "31bc9ad3-24d9-4b2b-ab57-04e3f8655667")
+	)
+	(no_connect
 		(at 149.86 53.34)
 		(uuid "321613a5-7acc-4bb1-a198-e839beebbb92")
 	)
 	(no_connect
+		(at 80.01 219.71)
+		(uuid "3241809f-0eb0-4c56-ba3a-8723126e6664")
+	)
+	(no_connect
 		(at 181.61 124.46)
 		(uuid "34fc5c93-cd49-4939-9310-2401246379e5")
+	)
+	(no_connect
+		(at 49.53 247.65)
+		(uuid "3830b634-00c6-4171-af47-7d8784f801bf")
 	)
 	(no_connect
 		(at 186.69 120.65)
@@ -7043,6 +7055,10 @@
 		(uuid "49054d6d-30b4-47db-bca0-e11a75586041")
 	)
 	(no_connect
+		(at 49.53 252.73)
+		(uuid "569648ae-d169-424a-83f0-45c7f7c162c5")
+	)
+	(no_connect
 		(at 49.53 219.71)
 		(uuid "6d31098b-f1d4-46eb-bdc0-ef9175753c85")
 	)
@@ -7051,8 +7067,16 @@
 		(uuid "6f47d7b6-82fb-49db-aa85-5eb255a87481")
 	)
 	(no_connect
+		(at 49.53 250.19)
+		(uuid "77fa0058-82e8-4aa2-974e-de3b3b66052a")
+	)
+	(no_connect
 		(at 344.17 125.73)
 		(uuid "868d6025-059a-4044-aa5b-088c7f13c490")
+	)
+	(no_connect
+		(at 49.53 245.11)
+		(uuid "95a82d46-b437-4b46-93be-3971686fe08d")
 	)
 	(no_connect
 		(at 49.53 227.33)
@@ -7068,7 +7092,7 @@
 	)
 	(no_connect
 		(at 49.53 240.03)
-		(uuid "ae330eb0-32f8-4137-9221-1a034c4e39bb")
+		(uuid "b4bfcf7b-d042-4bb7-9e04-a5e2848a0bd1")
 	)
 	(no_connect
 		(at 85.09 66.04)
@@ -7087,6 +7111,10 @@
 		(uuid "d9309d8a-f851-4031-a42c-bfc8dcfbb8bf")
 	)
 	(no_connect
+		(at 49.53 255.27)
+		(uuid "d98288f2-effb-49bf-a9cd-01fbf63cf5c4")
+	)
+	(no_connect
 		(at 49.53 224.79)
 		(uuid "e14553ce-1071-47a7-8428-0d5dabb15a89")
 	)
@@ -7097,6 +7125,10 @@
 	(no_connect
 		(at 236.22 210.82)
 		(uuid "eb932944-3736-4ee8-ace3-f1239a475a47")
+	)
+	(no_connect
+		(at 49.53 242.57)
+		(uuid "f0ab4bf5-e928-477f-90fe-6f1aa5e1db05")
 	)
 	(no_connect
 		(at 49.53 217.17)
@@ -7684,16 +7716,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 245.11) (xy 49.53 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1dbfad-12d8-4db2-9bef-87c242c75167")
-	)
-	(wire
-		(pts
 			(xy 86.36 189.23) (xy 99.06 189.23)
 		)
 		(stroke
@@ -7841,16 +7863,6 @@
 			(type default)
 		)
 		(uuid "4d26d68c-db94-4b62-975b-e18177c19b0e")
-	)
-	(wire
-		(pts
-			(xy 36.83 247.65) (xy 49.53 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f079707-6a0a-47c4-928b-e025b28b5c42")
 	)
 	(wire
 		(pts
@@ -8464,16 +8476,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 250.19) (xy 49.53 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a66e9a-486f-4759-b1e1-956e45f70965")
-	)
-	(wire
-		(pts
 			(xy 109.22 123.19) (xy 116.84 123.19)
 		)
 		(stroke
@@ -8481,16 +8483,6 @@
 			(type default)
 		)
 		(uuid "99a6ada6-ad5e-48a1-b5cd-3285d45f8d38")
-	)
-	(wire
-		(pts
-			(xy 80.01 219.71) (xy 92.71 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a02a14d-6cb0-4ce3-ad54-7a6fc5e667fa")
 	)
 	(wire
 		(pts
@@ -8531,16 +8523,6 @@
 			(type default)
 		)
 		(uuid "9f37ce07-8dc9-46e7-9135-4c68f67f35cc")
-	)
-	(wire
-		(pts
-			(xy 36.83 252.73) (xy 49.53 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc00226-6581-4077-9724-eec9acbe2f88")
 	)
 	(wire
 		(pts
@@ -8631,26 +8613,6 @@
 			(type default)
 		)
 		(uuid "a8d8f903-b3a2-4c9f-8264-48c24e288b68")
-	)
-	(wire
-		(pts
-			(xy 49.53 257.81) (xy 36.83 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f5fe15-63d1-49aa-a6e4-20dbcb8fcb59")
-	)
-	(wire
-		(pts
-			(xy 36.83 255.27) (xy 49.53 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa112ff1-c202-4d68-b1d5-5afbdfc16bd0")
 	)
 	(wire
 		(pts
@@ -8941,16 +8903,6 @@
 			(type default)
 		)
 		(uuid "cab6eafc-d9b3-4de4-85a2-0eab0bf3546e")
-	)
-	(wire
-		(pts
-			(xy 36.83 242.57) (xy 49.53 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb1e8d77-9e2f-46b8-8417-e3bd6defdbdb")
 	)
 	(wire
 		(pts
@@ -9602,16 +9554,6 @@
 		)
 		(uuid "2161f717-7e05-4180-b3ae-15049e96ae8f")
 	)
-	(label "CS"
-		(at 36.83 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "228c1fdc-e68b-491b-bad6-838067ad6ebb")
-	)
 	(label "MOT1_ENCA"
 		(at 92.71 237.49 180)
 		(effects
@@ -9621,26 +9563,6 @@
 			(justify right bottom)
 		)
 		(uuid "28aef09d-3058-44c2-8ab7-9d13a0b88383")
-	)
-	(label "RST"
-		(at 36.83 252.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a11a453-22ae-406d-8406-0a5f95c7ee0b")
-	)
-	(label "LITE"
-		(at 36.83 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2eaf8ad1-e62a-4a9b-928e-026ddb5e7a55")
 	)
 	(label "MOT2_IN2"
 		(at 92.71 227.33 180)
@@ -9702,16 +9624,6 @@
 		)
 		(uuid "48122e29-01b3-485d-ab64-58c2e11088d9")
 	)
-	(label "DC"
-		(at 36.83 250.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "495f8085-053c-4ad1-a54b-02acd90897f8")
-	)
 	(label "MOT2_IN1"
 		(at 92.71 257.81 180)
 		(effects
@@ -9731,16 +9643,6 @@
 			(justify left bottom)
 		)
 		(uuid "504fab28-330b-4322-9628-a1ac6f3f53b1")
-	)
-	(label "MOSI"
-		(at 36.83 247.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55b416e8-8377-4c8d-82fb-949644e34117")
 	)
 	(label "MOT2_IN1"
 		(at 199.39 228.6 0)
@@ -9781,16 +9683,6 @@
 			(justify right bottom)
 		)
 		(uuid "71e2baf7-0a97-41ea-a216-1037eb2f0470")
-	)
-	(label "SDA"
-		(at 92.71 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c908ffd-d81b-44c5-87a2-c3d0b87c22bb")
 	)
 	(label "MOT2_M2"
 		(at 369.57 110.49 180)
@@ -9902,16 +9794,6 @@
 		)
 		(uuid "c1547e10-1db0-4ba9-9744-d51d057414c3")
 	)
-	(label "SCL"
-		(at 36.83 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2d3bf1d-005d-4ff5-898b-a94bcb452dd9")
-	)
 	(label "MOT2_ENCA"
 		(at 369.57 115.57 180)
 		(effects
@@ -9961,16 +9843,6 @@
 			(justify right bottom)
 		)
 		(uuid "d2835681-c1de-45c5-893b-5e41084a5fae")
-	)
-	(label "SCK"
-		(at 36.83 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d49b1ad2-1608-4058-a6ec-a0e18bb3e61a")
 	)
 	(label "MOT1_ENCA"
 		(at 328.93 115.57 180)
@@ -10123,7 +9995,7 @@
 			(uuid "b221e263-a873-4df6-82c2-9dc0d3257ed0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#FLG03")
 					(unit 1)
@@ -10132,7 +10004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:SW_SPDT_SH")
+		(lib_id "MDD32_Bot:SW_SPDT_SH")
 		(at 181.61 118.11 0)
 		(unit 1)
 		(body_style 1)
@@ -10162,7 +10034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:SW_SPDT_Shouhan_MSK12C02"
+		(property "Footprint" "MDD32_Bot:SW_SPDT_Shouhan_MSK12C02"
 			(at 181.61 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10219,7 +10091,7 @@
 			(uuid "a916ac0c-b75f-47ce-8b45-34054dddac42")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "SW3")
 					(unit 1)
@@ -10312,7 +10184,7 @@
 			(uuid "85b1270b-1a37-4b44-851b-f3a26acd3396")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R14")
 					(unit 1)
@@ -10390,7 +10262,7 @@
 			(uuid "f06cb764-053e-43dd-bc58-a538bc2a0cf6")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR033")
 					(unit 1)
@@ -10467,7 +10339,7 @@
 			(uuid "a6c54bcb-f573-4996-87a9-c080959a1f47")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR065")
 					(unit 1)
@@ -10559,7 +10431,7 @@
 			(uuid "26fa2c3f-663b-4cad-856f-ee54290408a3")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C21")
 					(unit 1)
@@ -10637,7 +10509,7 @@
 			(uuid "d1ad884c-3aab-4787-bcad-209bded8b8e4")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR057")
 					(unit 1)
@@ -10729,7 +10601,7 @@
 			(uuid "9af345da-17f2-42c5-bc63-dcf1aeb65346")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C14")
 					(unit 1)
@@ -10805,7 +10677,7 @@
 			)
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "H2")
 					(unit 1)
@@ -10882,7 +10754,7 @@
 			(uuid "5a5ac050-f91e-4c95-b260-93e50cb2fbf0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR047")
 					(unit 1)
@@ -10957,7 +10829,7 @@
 			)
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "H1")
 					(unit 1)
@@ -11034,7 +10906,7 @@
 			(uuid "697bcc21-8cf4-48a5-8cd0-93971966524a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR048")
 					(unit 1)
@@ -11112,7 +10984,7 @@
 			(uuid "f437d97b-849d-401a-8a2a-42c005b2a030")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR036")
 					(unit 1)
@@ -11204,7 +11076,7 @@
 			(uuid "5c65572b-3cbd-4de6-9859-637e0e87a723")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C2")
 					(unit 1)
@@ -11281,7 +11153,7 @@
 			(uuid "6a8a6fdd-24cf-4af5-90b7-538a14ac31fa")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR032")
 					(unit 1)
@@ -11359,7 +11231,7 @@
 			(uuid "321cf822-14cc-44f4-876c-e6de27a1b3a7")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR043")
 					(unit 1)
@@ -11399,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:L_Coilcraft_XxL4030"
+		(property "Footprint" "MDD32_Bot:L_Coilcraft_XxL4030"
 			(at 332.74 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11450,7 +11322,7 @@
 			(uuid "5c3408fe-85cf-4b44-a4d0-d6dd110b7534")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "L1")
 					(unit 1)
@@ -11543,7 +11415,7 @@
 			(uuid "9fa42b91-1cd5-42ff-8d17-03bb2b1706a1")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C3")
 					(unit 1)
@@ -11622,7 +11494,7 @@
 			(uuid "cfa7467e-6084-4b6a-aae6-c74910c048fe")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#FLG02")
 					(unit 1)
@@ -11715,7 +11587,7 @@
 			(uuid "86f59f82-c4d4-4dec-bfd9-b004c4acb518")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C16")
 					(unit 1)
@@ -11793,7 +11665,7 @@
 			(uuid "91a8ced2-ba37-44f6-b327-fede31beacde")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR011")
 					(unit 1)
@@ -11884,7 +11756,7 @@
 			(uuid "0e9976c3-fa38-483d-b1d6-13756b82833c")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "D2")
 					(unit 1)
@@ -11960,7 +11832,7 @@
 			)
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "H3")
 					(unit 1)
@@ -12038,7 +11910,7 @@
 			(uuid "832e396e-c4d6-4cf5-b004-6d2bc67a4c40")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR066")
 					(unit 1)
@@ -12116,7 +11988,7 @@
 			(uuid "b81e29c4-bcde-48dc-a402-7ff689afacfc")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR038")
 					(unit 1)
@@ -12193,7 +12065,7 @@
 			(uuid "a5b5d628-7bb0-4ddb-9a98-359888126e62")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR041")
 					(unit 1)
@@ -12283,7 +12155,7 @@
 			(uuid "8dcb5300-7b83-4ff9-968e-ddf4e125f506")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C10")
 					(unit 1)
@@ -12375,7 +12247,7 @@
 			(uuid "700dd635-7f4b-4edb-90af-34588ac08dda")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R12")
 					(unit 1)
@@ -12452,7 +12324,7 @@
 			(uuid "2c62133e-5a0c-4b03-a7b6-ed183aff5b80")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR037")
 					(unit 1)
@@ -12529,7 +12401,7 @@
 			(uuid "e583d3a6-771f-419a-b37b-bf333d89baed")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR059")
 					(unit 1)
@@ -12607,7 +12479,7 @@
 			(uuid "b0ec32c8-58d5-4c50-9d83-e0021cb64df5")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR021")
 					(unit 1)
@@ -12684,7 +12556,7 @@
 			(uuid "41a0aa67-cea8-403d-b43c-d0522ad743ea")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR063")
 					(unit 1)
@@ -12762,7 +12634,7 @@
 			(uuid "e72e954b-5700-4e07-8b65-d01764843a89")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR02")
 					(unit 1)
@@ -12840,7 +12712,7 @@
 			(uuid "8622a5f0-b615-46ff-aae6-3e2d703d873d")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR028")
 					(unit 1)
@@ -12932,7 +12804,7 @@
 			(uuid "c512465f-ab41-4582-9c42-f31717c49550")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R6")
 					(unit 1)
@@ -13024,7 +12896,7 @@
 			(uuid "8ab7687c-5595-44f9-b704-9ee6e9bde180")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C22")
 					(unit 1)
@@ -13102,7 +12974,7 @@
 			(uuid "5432d6a4-3310-4ac4-a724-708b78d6a51c")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR027")
 					(unit 1)
@@ -13199,7 +13071,7 @@
 			(uuid "4c0ab537-119d-43e7-8bef-3a5fd2c4f96a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "Q3")
 					(unit 1)
@@ -13292,7 +13164,7 @@
 			(uuid "260393e4-e820-4659-98dc-1bfca5a49cc2")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R9")
 					(unit 1)
@@ -13370,7 +13242,7 @@
 			(uuid "df4c3a7c-d229-4ad9-8b8a-175eb49c75d8")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR052")
 					(unit 1)
@@ -13448,7 +13320,7 @@
 			(uuid "bbcdf300-f31d-497d-9222-2aebfde2ef14")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR054")
 					(unit 1)
@@ -13526,7 +13398,7 @@
 			(uuid "c7acaa01-b2c6-4e87-ad6f-6862dc4e90d9")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR055")
 					(unit 1)
@@ -13603,7 +13475,7 @@
 			(uuid "3b5c9bc6-62ac-44e8-86f8-729bc930c782")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR045")
 					(unit 1)
@@ -13695,7 +13567,7 @@
 			(uuid "7cb06613-d03e-47e8-9b43-346fed726f6b")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R8")
 					(unit 1)
@@ -13788,7 +13660,7 @@
 			(uuid "b667978a-e6ca-4612-9b68-7003d4e1cea0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C5")
 					(unit 1)
@@ -13866,7 +13738,7 @@
 			(uuid "ded6b3db-a0ee-48d8-8a97-a54234e23c2d")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR034")
 					(unit 1)
@@ -13943,7 +13815,7 @@
 			(uuid "9c1974f4-3f11-483d-b164-c5e83ccb093e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR016")
 					(unit 1)
@@ -14035,7 +13907,7 @@
 			(uuid "1b9412d7-15ed-4139-aec4-a39350cb78be")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R15")
 					(unit 1)
@@ -14112,7 +13984,7 @@
 			(uuid "97593931-8c8a-4dbf-a291-089b3ba45a35")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR044")
 					(unit 1)
@@ -14189,7 +14061,7 @@
 			(uuid "9470e8c4-d2bb-4142-8091-1af0aa865b37")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR06")
 					(unit 1)
@@ -14267,7 +14139,7 @@
 			(uuid "9366b4dc-3313-4adf-8b3f-fa72802c2649")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR012")
 					(unit 1)
@@ -14359,7 +14231,7 @@
 			(uuid "6d3f8813-64fc-4e83-9e12-d08e998229df")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C18")
 					(unit 1)
@@ -14451,7 +14323,7 @@
 			(uuid "cad59213-e824-4225-80d9-52acc59a20d8")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C12")
 					(unit 1)
@@ -14529,7 +14401,7 @@
 			(uuid "27fcde0f-a9d0-4432-91db-6882019af9a3")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR023")
 					(unit 1)
@@ -14607,7 +14479,7 @@
 			(uuid "caa6d278-7830-4c08-82f1-bfab6a66cc37")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR020")
 					(unit 1)
@@ -14699,7 +14571,7 @@
 			(uuid "0cd8e15b-ef93-4db2-adc8-3036e524860a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C17")
 					(unit 1)
@@ -14791,7 +14663,7 @@
 			(uuid "c61e0e86-20ad-432d-8742-5736a43e80ae")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R19")
 					(unit 1)
@@ -14800,7 +14672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:TPS61023DRLR")
+		(lib_id "MDD32_Bot:TPS61023DRLR")
 		(at 326.39 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -14897,7 +14769,7 @@
 			(uuid "6da627c5-f27e-4c84-a983-5441a507ad63")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "U5")
 					(unit 1)
@@ -14989,7 +14861,7 @@
 			(uuid "bca45c0b-424a-4cd3-bbf6-409f3ff68139")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R16")
 					(unit 1)
@@ -15067,7 +14939,7 @@
 			(uuid "c266d1e9-aab1-4de3-92ae-d60c3907f5e7")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR058")
 					(unit 1)
@@ -15108,7 +14980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:ESP32-S3-MINI-1"
+		(property "Footprint" "MDD32_Bot:ESP32-S3-MINI-1"
 			(at 80.01 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -15348,7 +15220,7 @@
 			(uuid "6a650994-c1cd-4249-9566-92e3731ab641")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "U1")
 					(unit 1)
@@ -15425,7 +15297,7 @@
 			(uuid "04d5db50-46d7-4fd1-adfa-c6742d6f45fb")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR035")
 					(unit 1)
@@ -15434,7 +15306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:Conn_Motor_N20_Encoder")
+		(lib_id "MDD32_Bot:Conn_Motor_N20_Encoder")
 		(at 354.33 127 0)
 		(unit 1)
 		(body_style 1)
@@ -15532,7 +15404,7 @@
 			(uuid "6be2ff50-8765-4f64-b762-dc7429a0857b")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "J5")
 					(unit 1)
@@ -15609,7 +15481,7 @@
 			(uuid "bf961aab-fa1e-481b-bc44-9d8b679b63cd")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR013")
 					(unit 1)
@@ -15686,7 +15558,7 @@
 			(uuid "1a1c96ac-3249-409f-98fe-35fd6d419b97")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR039")
 					(unit 1)
@@ -15763,7 +15635,7 @@
 			(uuid "0a638c82-4bac-4f42-adce-df0cf7667308")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR056")
 					(unit 1)
@@ -15856,7 +15728,7 @@
 			(uuid "b3e8fd40-c604-4eed-99fc-00c1b53a2027")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R13")
 					(unit 1)
@@ -15947,7 +15819,7 @@
 			(uuid "4d0ae442-a900-45d7-8bb0-d2c74a808d2a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C7")
 					(unit 1)
@@ -16025,7 +15897,7 @@
 			(uuid "927cbc66-0ef2-43e4-8a8d-da4d11b54d40")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR025")
 					(unit 1)
@@ -16102,7 +15974,7 @@
 			(uuid "bbd78713-e966-4e7a-a46b-bd34fbfbd411")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR017")
 					(unit 1)
@@ -16195,7 +16067,7 @@
 			(uuid "78fab7c6-e13e-4ecf-8919-c7831866f979")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C20")
 					(unit 1)
@@ -16273,7 +16145,7 @@
 			(uuid "722f8310-931f-450c-bb9a-cf5bbb990899")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR09")
 					(unit 1)
@@ -16350,7 +16222,7 @@
 			(uuid "ea4a9cc3-9e19-432c-9879-3f36f10859c1")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR030")
 					(unit 1)
@@ -16428,7 +16300,7 @@
 			(uuid "321ff41f-2a0c-47bb-8212-4998294d8dd9")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR029")
 					(unit 1)
@@ -16505,7 +16377,7 @@
 			(uuid "0ecc9c7e-89e3-4f30-afb1-1563a604b25a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR040")
 					(unit 1)
@@ -16597,7 +16469,7 @@
 			(uuid "d7e148e7-6de1-4941-bfc9-09cb673b600e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C1")
 					(unit 1)
@@ -16689,7 +16561,7 @@
 			(uuid "4316ff30-a7b5-4060-8e09-f515db5aa3ef")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R17")
 					(unit 1)
@@ -16767,7 +16639,7 @@
 			(uuid "66f5785c-f625-49a6-af8c-3501a9173d89")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR024")
 					(unit 1)
@@ -16844,7 +16716,7 @@
 			(uuid "e8e47fe9-a0e0-468e-8056-679ec952e353")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR062")
 					(unit 1)
@@ -16936,7 +16808,7 @@
 			(uuid "ec3cae72-6c78-4d7d-8e69-c0fdf7a63c67")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R18")
 					(unit 1)
@@ -17029,7 +16901,7 @@
 			(uuid "6ce60027-81f3-40ac-9768-d5a7f4111b6f")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C11")
 					(unit 1)
@@ -17119,7 +16991,7 @@
 			(uuid "dc41b885-4213-4701-b7ec-a65b75301937")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C6")
 					(unit 1)
@@ -17197,7 +17069,7 @@
 			(uuid "4ac57a7d-d4b1-4d8e-b050-299619b7d41b")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR064")
 					(unit 1)
@@ -17275,7 +17147,7 @@
 			(uuid "6beb089d-6da1-4276-9cd3-b9cf338f6d1e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR01")
 					(unit 1)
@@ -17367,7 +17239,7 @@
 			(uuid "338661f3-2dae-4295-a011-e3f67c3c64b8")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R5")
 					(unit 1)
@@ -17406,7 +17278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "MDD32_Bot:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 73.66 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17468,7 +17340,7 @@
 		(pin "B1"
 			(uuid "8075904d-0e6f-4d39-93b3-7a07ecefe6d9")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "ec4cbfc8-fa8c-443e-ba8f-d4df8db3de11")
 		)
 		(pin "B12"
@@ -17502,7 +17374,7 @@
 			(uuid "d3a869c5-a5e7-461a-8a2b-f064439b6bc5")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "J2")
 					(unit 1)
@@ -17594,7 +17466,7 @@
 			(uuid "74b911fe-8b8b-4d2d-9dc2-0faca987b19a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R4")
 					(unit 1)
@@ -17672,7 +17544,7 @@
 			(uuid "e7b9c4b2-b204-4028-b045-bb107a8a0d54")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR05")
 					(unit 1)
@@ -17749,7 +17621,7 @@
 			(uuid "e57dba05-6034-4d24-a3e1-f948839c1115")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR046")
 					(unit 1)
@@ -17842,7 +17714,7 @@
 			(uuid "07530dcc-15b5-44ec-947c-314e8bfaa95e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R10")
 					(unit 1)
@@ -17935,7 +17807,7 @@
 			(uuid "c4cd63cb-6d35-4921-a1af-c9e46ced5a57")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R1")
 					(unit 1)
@@ -18013,7 +17885,7 @@
 			(uuid "2733eb6f-b0c6-4f17-9e06-68b08185a20b")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR031")
 					(unit 1)
@@ -18054,7 +17926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
+		(property "Footprint" "MDD32_Bot:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias"
 			(at 170.18 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18151,7 +18023,7 @@
 			(uuid "7edbf428-3a9f-4752-b071-286bf7615b17")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "U2")
 					(unit 1)
@@ -18228,7 +18100,7 @@
 			(uuid "424cbc92-b8fe-4f93-a4f1-4b6a3f0084e0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR042")
 					(unit 1)
@@ -18305,7 +18177,7 @@
 			(uuid "c665b1c6-0c05-420f-80fe-2d3d77c685d0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR049")
 					(unit 1)
@@ -18408,7 +18280,7 @@
 			(uuid "8fce30c4-7558-43e9-bf80-a15b58c3d2f3")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "D5")
 					(unit 1)
@@ -18417,7 +18289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:DRV8833PWPR")
+		(lib_id "MDD32_Bot:DRV8833PWPR")
 		(at 223.52 223.52 0)
 		(unit 1)
 		(body_style 1)
@@ -18449,7 +18321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32_Diff_Drive:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias"
+		(property "Footprint" "MDD32_Bot:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.66x2.46mm_ThermalVias"
 			(at 228.6 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -18548,7 +18420,7 @@
 			(uuid "a5825e0e-a24e-493a-a528-3dea22b0ab1f")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "U3")
 					(unit 1)
@@ -18640,7 +18512,7 @@
 			(uuid "a99b0789-1e4a-4981-b1dc-1bd096753497")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R3")
 					(unit 1)
@@ -18717,7 +18589,7 @@
 			(uuid "c019ea21-38c1-450a-bcfa-b2f3fd54de04")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR07")
 					(unit 1)
@@ -18810,7 +18682,7 @@
 			(uuid "0f9ae300-a095-4659-962c-72fc4dda4f47")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "J1")
 					(unit 1)
@@ -18901,7 +18773,7 @@
 			(uuid "0ae19f63-7ccf-4288-8996-34fd9585e87e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "SW2")
 					(unit 1)
@@ -18978,7 +18850,7 @@
 			(uuid "5caa1471-a9ac-4a3d-9a2d-d11422157dcb")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR060")
 					(unit 1)
@@ -19068,7 +18940,7 @@
 			(uuid "9bf5dbec-bb77-4e2f-8690-f443a4fc2388")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R11")
 					(unit 1)
@@ -19077,7 +18949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:AP2114H-3.3")
+		(lib_id "MDD32_Bot:AP2114H-3.3")
 		(at 256.54 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -19161,7 +19033,7 @@
 			(uuid "0d29ef81-69db-4c7f-b45c-7998bc9c4f03")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "U4")
 					(unit 1)
@@ -19254,7 +19126,7 @@
 			(uuid "861d0a4a-6d02-476f-90cd-a252e4a0ae2e")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C13")
 					(unit 1)
@@ -19331,7 +19203,7 @@
 			(uuid "da893ac5-ccc8-412d-bed3-50b11b63a8eb")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR022")
 					(unit 1)
@@ -19422,7 +19294,7 @@
 			(uuid "11ae4a25-6dac-4770-9fdf-8ac052989c88")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "SW1")
 					(unit 1)
@@ -19500,7 +19372,7 @@
 			(uuid "c886b2c5-7397-44d3-8bf7-bb14b17ae5e4")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR015")
 					(unit 1)
@@ -19579,7 +19451,7 @@
 			(uuid "4573f779-3be1-47b1-9593-68ce680b98aa")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#FLG01")
 					(unit 1)
@@ -19657,7 +19529,7 @@
 			(uuid "34f63d7d-6bbc-4c2b-80ac-545ce9bacb30")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR053")
 					(unit 1)
@@ -19748,7 +19620,7 @@
 			(uuid "af8d56e7-2ed5-4a65-a8d6-9db190edee99")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "D1")
 					(unit 1)
@@ -19824,7 +19696,7 @@
 			)
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "H4")
 					(unit 1)
@@ -19901,7 +19773,7 @@
 			(uuid "c946f0a6-3fab-4678-bdf1-c065591622dd")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR067")
 					(unit 1)
@@ -19994,7 +19866,7 @@
 			(uuid "4281b8dc-868d-4c92-b175-5ed7d47d33d3")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C19")
 					(unit 1)
@@ -20072,7 +19944,7 @@
 			(uuid "e94bc541-60ed-4ff1-b962-29ec5a71a1d0")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR018")
 					(unit 1)
@@ -20175,7 +20047,7 @@
 			(uuid "de1441ec-36fb-444c-9926-cb24520a8695")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "D3")
 					(unit 1)
@@ -20252,7 +20124,7 @@
 			(uuid "4349e806-2b41-4aab-bddc-9ab736ace725")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR010")
 					(unit 1)
@@ -20261,7 +20133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32_Diff_Drive:Conn_Motor_N20_Encoder")
+		(lib_id "MDD32_Bot:Conn_Motor_N20_Encoder")
 		(at 313.69 127 0)
 		(unit 1)
 		(body_style 1)
@@ -20359,7 +20231,7 @@
 			(uuid "728581c7-2d58-472f-873e-dc92348ee3c3")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "J4")
 					(unit 1)
@@ -20456,7 +20328,7 @@
 			(uuid "7d05d81c-4010-4144-9c1b-6e16adc7a10f")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "Q2")
 					(unit 1)
@@ -20548,7 +20420,7 @@
 			(uuid "8d801c8f-c0e9-4cd1-8815-f3c0ab7aa5bd")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C8")
 					(unit 1)
@@ -20626,7 +20498,7 @@
 			(uuid "cee832c3-e1da-495b-bccc-2c76bce86f0c")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR04")
 					(unit 1)
@@ -20729,7 +20601,7 @@
 			(uuid "eca08e21-b27a-46e7-b1ba-0df8e528d77a")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "D4")
 					(unit 1)
@@ -20819,7 +20691,7 @@
 			(uuid "c82be3cb-dd90-4bc9-8a32-b179d2ad1a4b")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R2")
 					(unit 1)
@@ -20897,7 +20769,7 @@
 			(uuid "a5359e90-5018-4558-abb9-fd0cd1ade664")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR03")
 					(unit 1)
@@ -20987,7 +20859,7 @@
 			(uuid "909fa508-afce-44b2-bc90-7a54a30bd635")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C9")
 					(unit 1)
@@ -21079,7 +20951,7 @@
 			(uuid "c8a7381f-0d75-4519-96d1-9af93677bee9")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C15")
 					(unit 1)
@@ -21156,7 +21028,7 @@
 			(uuid "590a9e30-c75d-48a2-aae5-ebc1fa0bc1af")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR019")
 					(unit 1)
@@ -21233,7 +21105,7 @@
 			(uuid "69fe5031-bf37-4791-9271-070de614b145")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR026")
 					(unit 1)
@@ -21310,7 +21182,7 @@
 			(uuid "ec4d18a5-8a4a-4201-bfdf-62789a970b43")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR08")
 					(unit 1)
@@ -21403,7 +21275,7 @@
 			(uuid "13bdd806-69fa-44cd-ab14-d74f60dc8880")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "C4")
 					(unit 1)
@@ -21481,7 +21353,7 @@
 			(uuid "c6aff528-71cb-4d54-82ef-3fb1d50ff8c9")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR061")
 					(unit 1)
@@ -21559,7 +21431,7 @@
 			(uuid "ad004fe1-04b6-4f94-be90-a7c3dfbbfa4c")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "#PWR014")
 					(unit 1)
@@ -21656,7 +21528,7 @@
 			(uuid "b4d93e7b-a146-40a4-a801-28d13bbabd92")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "Q1")
 					(unit 1)
@@ -21748,7 +21620,7 @@
 			(uuid "73207c61-152d-4ad7-aed4-0d96e9451945")
 		)
 		(instances
-			(project "ESP32_Diff_Drive"
+			(project "MDD32_Bot"
 				(path "/68fd25bc-da1d-4d9a-9340-0ded04d59660"
 					(reference "R7")
 					(unit 1)

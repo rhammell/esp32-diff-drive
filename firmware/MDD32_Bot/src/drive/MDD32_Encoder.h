@@ -1,0 +1,46 @@
+#pragma once
+
+#include <Arduino.h>
+#include <driver/pulse_cnt.h>
+
+// Quadrature decoding mode: X2 (one channel, both edges) or X4 (both
+// channels, both edges).
+enum class EncoderMode { X2, X4 };
+
+// Hardware quadrature encoder using the ESP32 PCNT peripheral.
+// Decoding mode (X2 or X4) is selected per instance via begin().
+class MDD32_Encoder {
+public:
+    MDD32_Encoder() = default;
+
+    // Prevent copies and assignments (each instance owns a unique PCNT unit and spinlock)
+    MDD32_Encoder(const MDD32_Encoder&) = delete;
+    MDD32_Encoder& operator=(const MDD32_Encoder&) = delete;
+
+    bool begin(uint8_t pinA, uint8_t pinB, bool flip = false,
+               EncoderMode mode = EncoderMode::X4);
+    int64_t getCount() const;
+    void clearCount();
+
+private:
+    // Limits for the encoder count (to prevent overflow)
+    static const int16_t LOW_LIMIT  = -30000;
+    static const int16_t HIGH_LIMIT =  30000;
+
+    // PCNT unit handle
+    pcnt_unit_handle_t _unit = NULL;
+
+    // Flag to indicate if the encoder is attached to the hardware
+    bool _attached = false;
+
+    // Software accumulator extends the 16-bit hardware counter to 64 bits
+    volatile int64_t _accumulator = 0;
+
+    // Spinlock to prevent race conditions when accessing the encoder count
+    mutable portMUX_TYPE _spinlock = portMUX_INITIALIZER_UNLOCKED;
+
+    // Callback function for when the encoder reaches a limit
+    static bool IRAM_ATTR _onReach(pcnt_unit_handle_t unit,
+                                   const pcnt_watch_event_data_t *event,
+                                   void *ctx);
+};

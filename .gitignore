@@ -30,3 +30,7 @@ fp-info-cache
 # Fabrication toolkit output and settings
 production/
 fabrication-toolkit-options.json
+
+# FreeCAD backups
+*.FCBak
+*.FCStd1
